@@ -1,26 +1,3 @@
-/* h1{
-    text-align: center;
-}
-.navbar2 ul{
-    list-style: none;
-    background-color: yellowgreen;
-    padding: 0px;
-    margin: 0px;
-
-}
-.navbar2 a{
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
-}
-.navbar a:hover{
-    background-color: aqua;
-}
-
-*/
-
 h1{
     text-align: center;
 }
@@ -120,3 +97,19 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
 }
+  
+.portfolio-video {
+    width: 50%;
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,.3);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+.portfolio-video:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 30px rgba(0,0,0,.4);
+}
+  
+  
